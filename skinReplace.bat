@@ -13,7 +13,7 @@ GOTO mcmeta%ERRORLEVEL%
 
 :next
 echo mcmeta = %mcmeta%
-rem Код, для замены строки, был написан Евгением с Хабра (@tw1ggyz). Огромное спасибо ему :)
+rem Код, для замены строки, был написан (или украден, я хз) Евгением с Хабр'а (@tw1ggyz). Огромное спасибо ему :)
 setlocal enabledelayedexpansion
 Set infile=pack.info
 Set find="pack_format": 0,
