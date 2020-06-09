@@ -1,0 +1,10 @@
+.container {
+    margin: 0 auto;
+    width: 730px;
+    overflow: auto;
+}
+
+body{
+    background: #3f4555;
+    color: #FFF;
+}
