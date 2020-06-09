@@ -6,7 +6,7 @@ color 1F
 rem программа 
 md "%APPDATA%\.minecraft\resourcepacks\skinReplace %DATE%\assets\minecraft\textures\entity"
 copy /y resources\pack.png "%APPDATA%\.minecraft\resourcepacks\skinReplace %DATE%"
-copy skin\steve.png "%APPDATA%\.minecraft\resourcepacks\skinReplace %DATE%\assets\minecraft\textures\entity\steve.png"
+move skin\steve.png "%APPDATA%\.minecraft\resourcepacks\skinReplace %DATE%\assets\minecraft\textures\entity\steve.png"
 choice /c 12345 /m "choose your minecraft version (1. <1.9, 2. 1.9, 3. 1.11 - 1.12, 4. 1.13 - 1.14, 5. 1.15)"
 echo mcmeta = mcmeta%ERRORLEVEL%
 GOTO mcmeta%ERRORLEVEL%
